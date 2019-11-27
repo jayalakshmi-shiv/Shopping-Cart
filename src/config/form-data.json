@@ -1,0 +1,40 @@
+{
+  "billingAddress": {
+    "firstName": "",
+    "lastName": "",
+    "addressLine1": "",
+    "addressLine2": "",
+    "city": "",
+    "state": "",
+    "zipcode": "",
+    "country": ""
+  },
+  "shippingAddress": {
+    "firstName": "Jayalakshmi",
+    "lastName": "Shivashankar",
+    "addressLine1": "#76",
+    "addressLine2": "Vinayaka Layout",
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "zipcode": "560040",
+    "country": "India"
+  },
+  "cartData": [
+    {
+      "productId": "000001",
+      "productName": "Clean code",
+      "qty": "2",
+      "unitPrice": "1050",
+      "totalPrice": "1100",
+      "notes": ""
+    },
+    {
+      "productId": "000002",
+      "productName": "Tehe monk who sold his ferrari",
+      "qty": "1",
+      "unitPrice": "200",
+      "totalPrice": "200",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+$color-white: #ffffff;
+$color-gery: #d1d2d2;
+$color-black: #2e2e2e;
+$color-blue: #6691ef;
+$color-light-grey: #babbbb;
+$color-red: #e64c3f;
+.shoppingCart-form {
+  input[type="text"] {
+    width: 100%;
+    height: 32px;
+    padding: 12px 16px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 0px;
+  }
+}
+
+.form-heading {
+  color: $color-black;
+  font-weight: bold;
+}
+
+.main-container {
+  background-color: $color-gery;
+  padding: 28px;
+  top: 0;
+  bottom: 0;
+}
+.shoppingCart-card {
+  background-color: $color-white;
+  padding: 12px 12px 24px;
+  margin-bottom: 12px;
+  box-shadow: 2px 4px 8px $color-light-grey;
+}
+
+.shoppingCart-cart {
+  input[type="text"] {
+    width: 80%;
+    height: 32px;
+    padding: 12px 16px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  .shoppingCart-button {
+    background-color: #6691ef;
+    display: inline-block;
+    position: absolute;
+    box-sizing: border-box;
+    border: 1px solid #6691ef;
+    height: 32px;
+    box-shadow: 2px 4px 8px $color-light-grey;
+  }
+  .shoppingCart-delete {
+    height: 32px;
+    background-color: $color-red;
+    color: $color-white;
+    border: 1px solid $color-red;
+    box-shadow: 2px 4px 8px $color-light-grey;
+  }
+  .shoppingCart-icon {
+    color: $color-white;
+  }
+}
+.shoppingCart-add {
+  background-color: $color-blue;
+  color: $color-white;
+  border: 1px solid $color-blue;
+  box-shadow: 2px 4px 8px $color-light-grey;
+}
+.shoppingCart-save {
+  @extend .shoppingCart-add;
+  height: 32px;
+  float: right;
+  display: block;
+}
+.shoppingCart-error {
+  display: block;
+  color: $color-red;
+  font-weight: bold;
+}
+
+// date picker
+.datePicker
+{
+  [type="date"] {
+    background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+  }
+  [type="date"]::-webkit-inner-spin-button {
+    display: none;
+  }
+  [type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+  }
+ 
+  input {
+    border: 1px solid $color-gery;
+    background-color: #fff;
+    padding: 3px 5px;
+    width: 190px;
+  }
+}
