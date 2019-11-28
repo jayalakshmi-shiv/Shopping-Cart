@@ -136,6 +136,8 @@ export default class ShoppingCart extends Component {
     return (
       <div className="main-container">
         <div className="shoppingCart-card">
+          <h3 className="section-heading">Address Details</h3>
+          <hr/>
           <div className="row">
             {/* shipping address */}
             <div className="col col-md-4 col-lg-4">
@@ -152,6 +154,7 @@ export default class ShoppingCart extends Component {
                   name="orderDate"
                   id="orderDate"
                   value={orderDate}
+                  disabled
                   onChange={e => this.onDateChange(e)}
                 ></input>
               </div>
@@ -193,6 +196,8 @@ export default class ShoppingCart extends Component {
 
         {/* shopping cart detail */}
         <div className="shoppingCart-card">
+          <h3 className="section-heading ">Cart Details</h3>
+          <hr/>
           <Table
             headings={tableHeadings}
             rows={cartData}
