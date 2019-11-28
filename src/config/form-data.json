@@ -30,10 +30,18 @@
     },
     {
       "productId": "000002",
-      "productName": "Tehe monk who sold his ferrari",
+      "productName": "The monk who sold his ferrari",
       "qty": "1",
       "unitPrice": "200",
       "totalPrice": "200",
+      "notes": ""
+    },
+    {
+      "productId": "000003",
+      "productName": "Sita",
+      "qty": "3",
+      "unitPrice": "300",
+      "totalPrice": "900",
       "notes": ""
     }
   ]

@@ -1,10 +1,10 @@
 # shopping-cart application
 
 ## Description
-This is simple react application to demo shopping cart.
+This is a simple react application to demo shopping cart.
 
 ## Live Demo
-[Click here for live demo ]()
+[Click here for live demo ](https://jayalakshmi-shiv.github.io/Shopping-Cart)
 
 ## Installation
 
@@ -14,8 +14,8 @@ Open the command propmt in the required folder and run the command in command pr
 ```sh
 git clone https://github.com/jayalakshmi-shiv/Shopping-Cart.git
 ```
-### change directory
-Once you have cloned this repository, change the folder by running following command
+### Change directory
+Once you have cloned this repository, run the following command to change directory
 
 ```sh
 cd shopping-cart

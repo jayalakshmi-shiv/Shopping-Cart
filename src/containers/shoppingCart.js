@@ -177,6 +177,7 @@ export default class ShoppingCart extends Component {
               </div>
             </div>
           </div>
+          <br/>
           <div className="form-check">
             <input
               type="checkbox"
