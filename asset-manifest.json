@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/jayalakshmi-shiv/Shopping-Cart/static/css/main.1efe90d3.chunk.css",
+    "main.js": "/jayalakshmi-shiv/Shopping-Cart/static/js/main.e08132ba.chunk.js",
+    "main.js.map": "/jayalakshmi-shiv/Shopping-Cart/static/js/main.e08132ba.chunk.js.map",
+    "runtime-main.js": "/jayalakshmi-shiv/Shopping-Cart/static/js/runtime-main.848376ca.js",
+    "runtime-main.js.map": "/jayalakshmi-shiv/Shopping-Cart/static/js/runtime-main.848376ca.js.map",
+    "static/js/2.6124be70.chunk.js": "/jayalakshmi-shiv/Shopping-Cart/static/js/2.6124be70.chunk.js",
+    "static/js/2.6124be70.chunk.js.map": "/jayalakshmi-shiv/Shopping-Cart/static/js/2.6124be70.chunk.js.map",
+    "index.html": "/jayalakshmi-shiv/Shopping-Cart/index.html",
+    "precache-manifest.858eedba947f4c88b77ddf859a9e8bb8.js": "/jayalakshmi-shiv/Shopping-Cart/precache-manifest.858eedba947f4c88b77ddf859a9e8bb8.js",
+    "service-worker.js": "/jayalakshmi-shiv/Shopping-Cart/service-worker.js",
+    "static/css/main.1efe90d3.chunk.css.map": "/jayalakshmi-shiv/Shopping-Cart/static/css/main.1efe90d3.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.848376ca.js",
+    "static/js/2.6124be70.chunk.js",
+    "static/css/main.1efe90d3.chunk.css",
+    "static/js/main.e08132ba.chunk.js"
+  ]
+}
