@@ -139,6 +139,7 @@ export default class ShoppingCart extends Component {
           <h3 className="section-heading">Address Details</h3>
           <hr/>
           <div className="row">
+            
             {/* shipping address */}
             <div className="col col-md-4 col-lg-4">
               <Form
@@ -158,6 +159,18 @@ export default class ShoppingCart extends Component {
                   onChange={e => this.onDateChange(e)}
                 ></input>
               </div>
+              <br/>
+              <div className="form-check">
+            <input
+              type="checkbox"
+              className="form-check-input"
+              id="exampleCheck1"
+              onClick={this.copyBillingAdress}
+            />
+            <label className="form-check-label">
+              Billing address is same as Shipping address
+            </label>
+          </div>
             </div>
             {/* billing address */}
             <div className="col col-md-4 col-lg-4">
@@ -179,18 +192,6 @@ export default class ShoppingCart extends Component {
                 ></input>
               </div>
             </div>
-          </div>
-          <br/>
-          <div className="form-check">
-            <input
-              type="checkbox"
-              className="form-check-input"
-              id="exampleCheck1"
-              onClick={this.copyBillingAdress}
-            />
-            <label className="form-check-label">
-              Billing address is same as Shipping address
-            </label>
           </div>
         </div>
 
